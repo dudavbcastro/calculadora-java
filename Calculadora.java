@@ -15,10 +15,10 @@ public class Calculadora {
             System.out.println("0 - Sair");
             System.out.println("Escolha:");
 
-            opcao = sc.nexInt();
+            opcao = sc.nextInt();
 
             if (opcao >= 1 && opcao <=4){
-                System.out.printkn("Digite o primeiro número:");
+                System.out.println("Digite o primeiro número:");
                 double a = sc.nextDouble();
 
                 System.out.println("Digite o segundo número:");
